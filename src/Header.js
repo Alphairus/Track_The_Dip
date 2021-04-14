@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from './Track The DIP.png'
+import Logo from './trackthedip.svg'
 import './Header.css'
 
 function Header() {
