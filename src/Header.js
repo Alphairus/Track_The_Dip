@@ -7,11 +7,12 @@ function Header() {
         <div className="header_wrapper">
             {/* logo */}
             <div className="header_logo">
-                <img src={Logo} alt="" width={100} />
+                <img src={Logo} alt="" width={25} />
             </div>
             {/* search */}
             <div className="header_search">
                 <div className="header_searchContainer">
+                    {/* <SearchOutlined /> */}
                     <input placeholder="Search" type="text" />
                 </div>
             </div>
@@ -24,7 +25,7 @@ function Header() {
                 <a href="/#">Account</a>
             </div>
         </div>
-    )
+    );
 }
 
 export default Header
