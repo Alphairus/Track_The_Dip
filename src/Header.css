@@ -1,68 +1,54 @@
-.header__wrapper {
-  background-color: black;
-  color: white;
+.header_wrapper {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   height: 64px;
+  color: white;
 }
 
-.header__logo {
+.header_logo {
   margin-left: 48px;
 }
 
-.header__search {
+.header_search {
   display: flex;
-  align-items: center;
-  background-color: black;
-  height: 39px;
+  height: 40px;
   padding: 10px;
+  align-items: center;
 }
 
-.header__searchContainer {
-  display: flex;
-  align-items: center;
-  width: 100%;
+.header_searchContainer {
   height: 20px;
   border: 1px solid #31363a;
-  padding: 5px;
   border-radius: 4px;
-}
-
-.header__searchContainer > .MuiSvgIcon-root {
-  color: gray;
-  padding: 10px;
-}
-
-.header__searchContainer > input {
-  border: none;
   width: 375px;
+}
+
+.header_searchContainer > input {
+  background-color: transparent;
+  border: none;
+  width: 100%;
   margin-left: 5px;
-  margin-right: 10px;
-  background-color: black;
+  margin-right: 5px;
   color: white;
 }
 
-.header__searchContainer > input:focus {
+.header_searchContainer > input:focus {
   outline: none;
 }
 
-.header__menuItems {
+.header_menuItems {
+  margin-left: 48px;
   margin-right: 48px;
 }
 
-.header__menuItems a {
-  font-weight: bold;
+.header_menuItems a {
   color: white;
+  font-weight: bold;
   text-decoration: none;
   padding: 0 10px;
 }
 
-.header__menuItems a:hover,
-.header__menuItems a:active {
-  color: #5ac53b;
-}
-
-a:first-of-type {
+.header_menuItems a:hover {
   color: #5ac53b;
 }
