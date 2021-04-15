@@ -1,6 +1,6 @@
-import React from 'react'
-import Logo from './trackthedip.svg'
-import './Header.css'
+import React from 'react';
+import Logo from './trackthedip.svg';
+import './Header.css';
 
 function Header() {
     return (
