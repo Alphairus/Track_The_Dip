@@ -7,7 +7,7 @@ function Header() {
         <div className="header_wrapper">
             {/* logo */}
             <div className="header_logo">
-                <img src={Logo} width={100} />
+                <img src={Logo} alt="" width={100} />
             </div>
             {/* search */}
             <div className="header_search">
@@ -17,11 +17,11 @@ function Header() {
             </div>
             {/* menuitems */}
             <div className="header_menuItems">
-                <a href="#">Coins</a>
-                <a href="#">Portfolio</a>
-                <a href="#">Cash</a>
-                <a href="#">Messages</a>
-                <a href="#">Account</a>
+                <a href="/#">Coins</a>
+                <a href="/#">Portfolio</a>
+                <a href="/#">Cash</a>
+                <a href="/#">Messages</a>
+                <a href="/#">Account</a>
             </div>
         </div>
     )
