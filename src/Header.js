@@ -1,6 +1,6 @@
 import React from 'react'
-import Logo from './Track The DIP.svg'
 import './Header.css'
+import Logo from './Track The DIP.svg'
 
 function Header() {
     return (
