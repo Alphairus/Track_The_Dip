@@ -28,6 +28,10 @@
   font-weight: 500;
 }
 
+.row_chart {
+  padding: 0 10px;
+}
+
 .row_price {
   padding-bottom: 4px;
 }
