@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Stats.css";
 import axios from "axios";
+import StatsRow from "./StatsRow";
 
 const TOKEN = "c1rpdjaad3ifb04k9cbg";
 const BASE_URL = "https://finnhub.io/api/v1/quote";
@@ -61,12 +62,7 @@ function Stats() {
         <div className="stats_content">
           <div className="stats_rows">
             {stockData.map((stock) => (
-              <StatsRow
-                key={stock.name}
-                name={stock.name}
-                openPrice={stock.o}
-                price={stock.c}
-              />
+              <StatsRow />
             ))}
           </div>
         </div>
